@@ -21,7 +21,7 @@ Required tools
 
 #### Bedtools
 
-#### Python 2.7 
+#### Python 3
       - scipy.stats
       
       - numpy
