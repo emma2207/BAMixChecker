@@ -936,7 +936,7 @@ if __name__ == "__main__":
 					for AF_all in range(AF,-1,-10):
 						if AF_all >= AF:
 							continue
-						AF_all = int(AF_all/10)*10
+						AF_all = int(AF_all//10)*10
 						if AF_all != 0:
 							bed_file = make_bed("{0}gnomad_{1}_AF{2}_AF{3}_All.bed".format(bed_file_path,args.RefVer,AF,AF_all), args.BEDfile , out_path, bedtools_path)
 						else:
